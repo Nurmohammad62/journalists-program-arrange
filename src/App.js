@@ -4,10 +4,12 @@ import Main from './components/Main/Main';
 
 function App() {
   return (
-    <div className='body'>
-        <Header></Header>
-        <Main></Main>
-    </div>
+    <body>
+      {/* header section */}
+      <Header></Header>
+      {/* main section */}
+      <Main></Main>
+    </body>
   );
 }
 

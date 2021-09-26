@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserPlus, faAddressBook } from '@fortawesome/free-solid-svg-icons';
 import './Journalist.css';
 
+/* journalist component start */
 const Journalist = props => {
     const {name, img, working_at, working_exp, age, lives_in, salary} = props.journalist;
 
@@ -21,5 +22,6 @@ const Journalist = props => {
         </div>
     );
 };
+// journalist component end
 
 export default Journalist;

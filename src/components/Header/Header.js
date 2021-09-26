@@ -10,12 +10,12 @@ const Header = () => {
                 <h1>Top journalists in Bangladesh</h1>
                 <h2>Budget for the program: 15 Million</h2>
             </div>
-                <nav className="header-menu">
-                    <a href="/home">Home</a>
-                    <a href="/home">About</a>
-                    <a href="/home">Gallery</a>
-                    <a href="/home">Contact</a>
-                </nav>
+            <nav className="header-menu">
+                <a href="/home">Home</a>
+                <a href="/home">About</a>
+                <a href="/home">Gallery</a>
+                <a href="/home">Contact</a>
+            </nav>
         </header>
     );
 };

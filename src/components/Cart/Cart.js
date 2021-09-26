@@ -2,6 +2,7 @@ import React from 'react';
 import './Cart.css';
 import CartList from './CartList/CartList';
 
+/* cart component starts */
 const Cart = props => {
     const {cart} = props;
     let salary = 0;
@@ -13,7 +14,7 @@ const Cart = props => {
         <div>
             <h2>Invite list summery</h2>
             <p>Total invited: {cart.length}</p>
-            <p>Salary: ${salary}</p>
+            <p>Total salary: ${salary}</p>
             <h3>Invited journalists name list:</h3>
             <ul className='journalist-list'>
                 {
@@ -26,5 +27,6 @@ const Cart = props => {
         </div>
     );
 };
+/* cart component ends */
 
 export default Cart;

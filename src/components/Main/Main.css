@@ -1,3 +1,4 @@
+/* main component styles */
 main{
     display: grid;
     grid-template-columns: 3fr .55fr;
