@@ -1,0 +1,19 @@
+main{
+    display: grid;
+    grid-template-columns: 3fr .55fr;
+}
+
+.journalists{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px 20px;
+}
+
+.cart{
+    position: fixed;
+    right: 0px;
+    top: 250px;
+    background-color: #219ebc;
+    border-radius: 5px;
+    padding: 10px 20px;
+}

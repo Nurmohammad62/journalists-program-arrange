@@ -1,0 +1,23 @@
+.journalist{
+    background-color: #219ebc;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+.journalist img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.btn-invite{
+    background-color: #023047;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    line-height: 30px;
+    width: 180px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
