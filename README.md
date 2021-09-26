@@ -1,3 +1,8 @@
+# About this site
+1. This site is a jounalist organaize website
+2. To manage a program of journalist, you can select journalists and invite
+3. You can also know some information about the top journalists in bangladesh
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
